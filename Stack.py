@@ -3,8 +3,8 @@ class Stack:
         self.stack=[]
         
     def push(self):
-        last_element=input("Enter the element you want to push: ")
-        return self.stack.append(last_element)
+        top_element=input("Enter the element you want to push: ")
+        return self.stack.append(top_element)
     
     def pop(self):
         if len(self.stack)==0:
