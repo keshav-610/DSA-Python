@@ -50,7 +50,7 @@ def main():
             elif choice ==5:
                 break
             else:
-                print("Please enter the valid choice \n1.Push\n2.Pop\n3.Update\n4.Display\n5.Exit\n ")  
+                print("Please enter the valid choice")
                 
     except KeyboardInterrupt:
         print("\nKeyboard Interrupt")
