@@ -53,7 +53,7 @@ def main():
                 print("Please enter the valid choice \n1.Push\n2.Pop\n3.Update\n4.Display\n5.Exit\n ")  
                 
     except KeyboardInterrupt:
-        print("Keyboard Interrupt")
+        print("\nKeyboard Interrupt")
     
 if __name__=="__main__":
     main()
